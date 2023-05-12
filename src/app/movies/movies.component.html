@@ -1,0 +1,20 @@
+<h1 align="center">Assignment 3</h1>
+<h2 align="center">Movies</h2>
+<table align="center" border="1">
+    <tr>
+    <th>Title</th>
+    <th>Genre</th>
+    <th>director</th>
+    </tr>
+    <tr  *ngFor="let movie of getMovies()">
+        <td>
+            {{movie.title}}
+        </td>
+        <td>
+            {{movie.genre}}
+        </td>
+        <td>
+            {{movie.director}}
+        </td>
+    </tr>
+</table>

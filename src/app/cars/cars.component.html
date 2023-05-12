@@ -1,0 +1,15 @@
+<h1 align="center">Assignment 1</h1>
+<div align="center"><h2><p>Cars works!</p></h2>
+<b>This is the custom car component</b>
+<div *ngFor="let p of getCars()" [hidden]="hide">
+    {{p.name}}
+    {{p.model}}
+    {{p.year}}
+
+</div>
+</div>
+<br>
+<br>
+<div align="center"><button (click)="toggle()">ToggleMe</button></div>
+
+
